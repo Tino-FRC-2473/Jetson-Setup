@@ -14,3 +14,11 @@ Once you connect to the WiFi network from your local machine, you can start acce
 For SSH access, use [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Tutorial: https://www.ssh.com/ssh/putty/windows
 
 For VNC access, use [VNCViewer](https://www.realvnc.com/en/connect/download/viewer/windows/). Connect to `10.42.0.1`
+
+# Setup a new Jetson
+Install Jetpack with the [NVIDIA SDK Manager](https://developer.nvidia.com/nvidia-sdk-manager).
+
+1. Run setup.sh
+2. Enable autologin for the user. May need to manually edit `/etc/gdm3/custom.conf`
+3. Create a new WiFi network from the top menu. Also set it to autoconnect
+4. TODO: Setup .xprofile
