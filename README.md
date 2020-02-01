@@ -22,3 +22,10 @@ Install Jetpack with the [NVIDIA SDK Manager](https://developer.nvidia.com/nvidi
 2. Enable autologin for the user. May need to manually edit `/etc/gdm3/custom.conf`
 3. Create a new WiFi network from the top menu. Also set it to autoconnect
 4. TODO: Setup .xprofile
+
+## Orbitty Carrier
+Carrier documentation: 
+- [Product Page](http://connecttech.com/product/orbitty-carrier-for-nvidia-jetson-tx2-tx1/) 
+- [User Manual](http://www.connecttech.com/pdf/CTIM-ASG003_Manual.pdf)
+
+After flashing with NVIDA SDK Manager, you need to install the [board support package](http://connecttech.com/resource-center/kdb373/).
