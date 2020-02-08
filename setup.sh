@@ -11,6 +11,7 @@ sudo apt-get install -y v4l-utils guvcview
 
 # Python stuff
 sudo apt-get install -y python3-pip python3-scipy python3-numpy python3-matplotlib
+pip3 install pyserial networkx
 
 # Install VNC
 sudo apt-get install -y tigervnc-standalone-server tigervnc-xorg-extension tigervnc-viewer
